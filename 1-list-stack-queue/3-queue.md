@@ -36,7 +36,7 @@ Mengakses elemen yang berada di antrean paling belakang:
 std::string belakang = atm.back();
 ```
 
-### Pop
+### Pop atau Dequeue
 
 Mengeluarkan elemen yang berada di antrean paling depan:
 ```c++
