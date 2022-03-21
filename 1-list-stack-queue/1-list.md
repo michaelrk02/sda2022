@@ -25,22 +25,22 @@ Menambahkan elemen di akhir:
 fav_numbers.push_back(24);
 ```
 
-Menambahkan elemen di posisi ke-3:
+Menambahkan elemen di indeks ke-2:
 ```c++
 fav_numbers.insert(fav_numbers.begin() + 2, 48);
 ```
 
-Menghapus elemen di posisi terakhir:
+Menghapus elemen di indeks terakhir:
 ```c++
 fav_numbers.pop_back();
 ```
 
-Menghapus elemen di posisi ke-3:
+Menghapus elemen di indeks ke-2:
 ```c++
 fav_numbers.erase(fav_numbers.begin() + 2);
 ```
 
-Mengakses elemen di posisi ke-3:
+Mengakses elemen di indeks ke-2:
 ```c++
 int num = fav_numbers[2];
 ```
