@@ -27,7 +27,7 @@ fav_numbers.push_back(24);
 
 Menambahkan elemen di posisi ke-3:
 ```c++
-fav_numbers.insert(fav_numbers.begin() + 3);
+fav_numbers.insert(fav_numbers.begin() + 3, 48);
 ```
 
 Menghapus elemen di posisi terakhir:
