@@ -36,6 +36,6 @@ Mengeluarkan elemen yang berada di bagian atas stack:
 books.pop();
 ```
 
-## Referensi
+## Selengkapnya
 
 - [C++ Stack](https://en.cppreference.com/w/cpp/container/stack)

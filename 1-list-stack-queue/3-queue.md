@@ -43,6 +43,6 @@ Mengeluarkan elemen yang berada di antrean paling depan:
 atm.pop();
 ```
 
-## Referensi
+## Selengkapnya
 
 - [C++ Queue](https://en.cppreference.com/w/cpp/container/queue)

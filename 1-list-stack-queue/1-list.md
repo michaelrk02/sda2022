@@ -81,7 +81,7 @@ Menambahkan elemen di posisi ke-3:
 ```c++
 fav_numbers.insert(std::next(fav_numbers.begin(), 3), 48); // #include <iterator> terlebih dahulu
 // atau:
-fav_numbers.insert(it, 48); // asumsi `it` adalah [iterator](https://en.cppreference.com/w/cpp/named_req/BidirectionalIterator) yang sudah mengarah ke elemen ke-3
+fav_numbers.insert(it, 48); // asumsi `it` adalah iterator yang sudah mengarah ke elemen ke-3
 ```
 
 Menghapus elemen di awal (kompleksitas O(N)):
@@ -111,7 +111,7 @@ Menghapus elemen di posisi ke-3:
 ```c++
 fav_numbers.erase(std::next(fav_numbers.begin(), 2)); // #include <iterator> terlebih dahulu
 // atau:
-fav_numbers.erase(it); // asumsi `it` adalah [iterator](https://en.cppreference.com/w/cpp/named_req/BidirectionalIterator) yang sudah mengarah ke elemen ke-3
+fav_numbers.erase(it); // asumsi `it` adalah iterator yang sudah mengarah ke elemen ke-3
 ```
 
 Iterasi seluruh elemen:
@@ -125,7 +125,8 @@ for (
 }
 ```
 
-## Referensi
+## Selengkapnya
 
 - [C++ Vector](https://en.cppreference.com/w/cpp/container/vector)
 - [C++ List](https://en.cppreference.com/w/cpp/container/list)
+- [C++ Iterator](https://en.cppreference.com/w/cpp/named_req/BidirectionalIterator)
