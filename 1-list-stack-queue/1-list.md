@@ -79,7 +79,7 @@ fav_numbers.push_back(96);
 
 Menambahkan elemen di posisi ke-3:
 ```c++
-fav_numbers.insert(std::next(fav_numbers.begin(), 3), 48); // #include <iterator> terlebih dahulu
+fav_numbers.insert(std::next(fav_numbers.begin(), 2), 48); // #include <iterator> terlebih dahulu
 // atau:
 fav_numbers.insert(it, 48); // asumsi `it` adalah iterator yang sudah mengarah ke elemen ke-3
 ```
