@@ -9,12 +9,12 @@ Terdapat beberapa jenis notasi asimtotik, tetapi kita hanya akan menggunakan dan
 | Fungsi Big-O | Nama       |
 | ------------ | ---------- |
 | O(1)         | Konstan    |
-| O(log n)     | Logaritmik |
-| O(n)         | Linear     |
-| O(n log n)   | n log n    |
-| O(n^2)       | Kuadratik  |
-| O(n^m)       | Polinomial |
-| O(n!)        | Faktorial  |
+| O(log N)     | Logaritmik |
+| O(N)         | Linear     |
+| O(N log N)   | n log n    |
+| O(N^2)       | Kuadratik  |
+| O(N^m)       | Polinomial |
+| O(N!)        | Faktorial  |
 
 ## 2 - Contoh Kriteria Kompleksitas
 
@@ -22,18 +22,24 @@ Terdapat beberapa jenis notasi asimtotik, tetapi kita hanya akan menggunakan dan
 
 ```cpp
 // ...
-int a = 0, b = 0;
-for (i = 0; i < N; i++) {
-	a = a + rand();
-}
-for (j = 0; j < M; j++) {
-	b = b + rand();
+cout << "Hello, world!" << endl;
+// ...
+```
+
+Dalam kode di atas "Hello, world!" mencetak hanya sekali di layar. Jadi, kompleksitas waktu adalah konstan: O(1) yaitu setiap kali jumlah waktu yang konstan diperlukan untuk mengeksekusi kode, apa pun sistem operasi atau konfigurasi mesin yang Anda gunakan.
+
+### O(N)
+
+```cpp
+// ...
+int i, n = 8;
+for (i = 1; i <= n; i++) {
+   cout << "Hello, world!" << endl;
 }
 // ...
 ```
 
-Loop pertama adalah O(N) dan loop kedua adalah O(M). Karena kita tidak tahu mana yang lebih besar, kita katakan ini O(N + M). Ini juga dapat ditulis sebagai O(max(N, M)).
-Karena tidak ada ruang tambahan yang digunakan, kompleksitas ruang adalah konstan / O(1)
+Dalam kode di atas "Hello, world!" akan mencetak N kali. Jadi, kompleksitas waktu dari kode di atas adalah O(N).
 
 ### O(N^2)
 
@@ -54,7 +60,7 @@ Kode di atas berjalan total tidak kali
 = 1/2 _ N^2 + 1/2 \* N  
 O(N^2) kali.
 
-### O(n log n)
+### O(N log N)
 
 ```cpp
 // ...
@@ -75,7 +81,7 @@ Jadi, j akan dijalankan untuk langkah-langkah O(log n).
 saya berlari selama n/2 langkah.  
 Jadi, langkah total = O(n/ 2 * log (n)) = O(n*logn)
 
-### (log n)
+### (log N)
 
 ```cpp
 // ...
