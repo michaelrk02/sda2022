@@ -55,9 +55,9 @@ for (i = 0; i < N; i++) {
 ```
 
 Kode di atas berjalan total  
-= N + (N – 1) + (N – 2) + … 1 + 0
-= N _ (N + 1) / 2
-= 1/2 _ N^2 + 1/2 \* N  
+= N + (N – 1) + (N – 2) + … 1 + 0  
+= N (N + 1) / 2  
+= 1/2 N^2 + 1/2 N  
 O(N^2) kali.
 
 ### O(N log N)
