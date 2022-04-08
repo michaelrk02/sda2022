@@ -105,3 +105,17 @@ Pengembangan algoritma idealnya diusahakan mendapatkan kompleksitas O(1) atau O(
 ## 4 - Kesimpulan
 
 Pada bagian ini kita telah mempelajari bagaimana melakukan analisa efisiensi algoritma dengan menggunakan notasi Big-O. Kita juga melihat bagaimana algoritma yang paling efisien memiliki kompleksitas O(1), dengan kompleksitas O(n!) sebagai kelas kompleksitas yang paling tidak efisien. Dengan mengerti efisiensi algoritma, diharapkan pembaca dapat memilih dan merancang algoritma yang sesuai dengan kebutuhan untuk menyelesaikan masalah.
+
+## 5 - Soal Praktikum
+
+Carilah dan analisis time complexity dari algoritma berikut:
+
+```cpp
+// ...
+int fib(int n) {
+    if (n <= 1)
+        return n;
+    return fib(n-1) + fib(n-2);
+}
+// ...
+```
