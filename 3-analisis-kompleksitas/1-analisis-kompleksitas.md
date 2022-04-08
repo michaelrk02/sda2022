@@ -54,9 +54,9 @@ for (i = 0; i < N; i++) {
 // ...
 ```
 
-Kode di atas berjalan total tidak kali  
-= N + (N – 1) + (N – 2) + … 1 + 0  
-= N _ (N + 1) / 2  
+Kode di atas berjalan total  
+= N + (N – 1) + (N – 2) + … 1 + 0
+= N _ (N + 1) / 2
 = 1/2 _ N^2 + 1/2 \* N  
 O(N^2) kali.
 
@@ -65,21 +65,21 @@ O(N^2) kali.
 ```cpp
 // ...
 int i, j, k = 0;
-for (i = n / 2; i <= n; i++) {
-	for (j = 2; j <= n; j = j * 2) {
-		k = k + n / 2;
+for (i = N / 2; i <= N; i++) {
+	for (j = 2; j <= N; j = j * 2) {
+		k = k + N / 2;
 	}
 }
 // ...
 ```
 
-Jika diperhatikan, j terus berlipat ganda hingga kurang dari atau sama dengan n. Beberapa kali, kita dapat menggandakan angka hingga kurang dari n akan menjadi log(n).  
+Jika diperhatikan, j terus berlipat ganda hingga kurang dari atau sama dengan N. Beberapa kali, kita dapat menggandakan angka hingga kurang dari N akan menjadi log(N).  
 Mari kita ambil contoh di sini.  
-untuk n = 16, j = 2, 4, 8, 16  
-untuk n = 32, j = 2, 4, 8, 16, 32  
-Jadi, j akan dijalankan untuk langkah-langkah O(log n).  
-saya berlari selama n/2 langkah.  
-Jadi, langkah total = O(n/ 2 * log (n)) = O(n*logn)
+untuk N = 16, j = 2, 4, 8, 16  
+untuk N = 32, j = 2, 4, 8, 16, 32  
+Jadi, j akan dijalankan untuk langkah-langkah O(log N).  
+i berjalan selama N/2 langkah.  
+Jadi, langkah total = O(N / 2 * log (N)) = O(N*logN)
 
 ### (log N)
 
