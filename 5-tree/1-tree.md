@@ -75,7 +75,7 @@ Operasi penghapusan pada struktur data tree dilakukan dengan cara menghapus node
 
 ```cpp
 // ...
-bool deleteNodeIndex(int index) {
+bool deleteNodeIndex(unsigned int index) {
     if (m_children.empty()) {
         return false;
     }
@@ -85,6 +85,7 @@ bool deleteNodeIndex(int index) {
         }
         else {
             m_children.erase(m_children.begin() + index);
+            return true;
         }
     }
 }
@@ -188,6 +189,8 @@ root.insert(child_1);
 ```
 
 > Pertanyaan Tantangan:
+>
+> Mengapa kita melakukan insert dari bawah? Mengapa kita tidak melakukan insert mulai dari `root`? Apa yang terjadi jika kita melakukan insert mulai dari `root`? Mengapa hal itu bisa terjadi?
 
 3. Setelah ini, kalian dapat menggunakan operasi lainnya seperti delete atau traversal. Mari kita coba melakukan Preorder traversal
 
