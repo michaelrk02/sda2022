@@ -6,11 +6,11 @@ Tree adalah sebuah struktur data abstrak (implementasinya sesuai dengan keingina
 
 Ilustrasi di bawah ini merupakan salah satu contoh struktur data Tree.
 
-<center>
+<div align="center">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tree_%28computer_science%29.svg/421px-Tree_%28computer_science%29.svg.png)
 
-</center>
+</div>
 
 Kita bisa melihat bahwa root dari Tree di atas adalah node 2 yang paling atas, yang tidak memiliki `parent`
 
