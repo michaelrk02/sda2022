@@ -1,0 +1,25 @@
+digraph G {
+
+    graph [rankdir = TB];
+
+    node [shape = rectangle];
+
+    "Real Madrid" -> "Valencia" [label = "mengalahkan"]
+    "Valencia" -> "Real Madrid" [label = "dikalahkan"]
+
+    "Chelsea" -> "AC Milan" [label = "mengalahkan"]
+    "AC Milan" -> "Chelsea" [label = "dikalahkan"]
+
+    "Chelsea" -> "Real Madrid" [label = "diimbangi"]
+    "Real Madrid" -> "Chelsea" [label = "diimbangi"]
+
+    "Real Madrid" -> "AC Milan" [label = "mengalahkan"]
+    "AC Milan" -> "Real Madrid" [label = "dikalahkan"]
+
+    "Valencia" -> "Chelsea" [label = "mengalahkan"]
+    "Chelsea" -> "Valencia" [label = "dikalahkan"]
+
+    "AC Milan" -> "Valencia" [label = "mengalahkan"]
+    "Valencia" -> "AC Milan" [label = "dikalahkan"]
+
+}

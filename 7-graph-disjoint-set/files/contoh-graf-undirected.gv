@@ -1,0 +1,17 @@
+graph G {
+
+    graph [rankdir = TB];
+
+    node [shape = rectangle];
+
+    "Rumah" -- "Universitas Sebelas Maret" [label = "2.97 km"]
+    "Rumah" -- "Pecel Madiun Pucangsawit" [label = "2.54 km"]
+    "Universitas Sebelas Maret" -- "SMP Negeri 8 Surakarta" [label = "1.61 km"]
+    "SMP Negeri 8 Surakarta" -- "SMA Negeri 3 Surakarta" [label = "1.25 km"]
+    "Universitas Sebelas Maret" -- "Rumah Sakit dr. Moewardi" [label = "2.86 km"]
+    "Rumah Sakit dr. Moewardi" -- "SMP Negeri 4 Surakarta" [label = "1.43 km"]
+    "SMP Negeri 8 Surakarta" -- "SMP Negeri 4 Surakarta" [label = "2.99 km"]
+    "Pecel Madiun Pucangsawit" -- "SMA Negeri 3 Surakarta" [label = "2.28 km"]
+    "Pecel Madiun Pucangsawit" -- "SMP Negeri 4 Surakarta" [label = "4.00 km"]
+
+}
