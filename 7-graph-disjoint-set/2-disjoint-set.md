@@ -21,7 +21,7 @@ Untuk mendukung prosesnya, disjoint set menggunakan suatu algoritma yaitu **unio
 
 Berikut adalah contoh definisi struktur data untuk kasus jejaring pertemanan:
 
-```
+```c++
 std::map<std::string, std::string> perwakilan;
 
 // mulanya seluruh orang hanya diwakili oleh dirinya sendiri
@@ -35,7 +35,7 @@ perwakilan["Edo"] = "Edo";
 
 Kemudian untuk menjalin pertemanan, berikut adalah contohnya:
 
-```
+```c++
 // fungsi untuk menemukan perwakilan kelompok pertemanan
 // merupakan bagian "find" dalam algoritma "union-find"
 std::string find(std::string X) {
@@ -47,7 +47,7 @@ std::string find(std::string X) {
 
 // fungsi untuk menjalin pertemanan A dengan B
 // merupakan bagian "union" dalam algoritma "union-find"
-void union(std::string A, std::string B) {
+void merge(std::string A, std::string B) {
     std::string wakilA = find(A);
     std::string wakilB = find(B);
 
@@ -64,7 +64,7 @@ void union(std::string A, std::string B) {
 
 Untuk mengecek apakah kedua orang berada dalam jaringan pertemanan yang sama, maka cukup melakukan:
 
-```
+```c++
 if (find("Andi") == find("Deni")) {
     std::cout << "Andi dan Deni berada dalam satu jaringan yang sama" << std::endl;
 }
