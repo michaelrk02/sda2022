@@ -12,6 +12,8 @@ Contoh di atas merupakan contoh graf berjenis **directed graph** karena tiap edg
 
 Contoh di atas merupakan contoh graf berjenis **undirected graph** karena tiap edge (jarak antar tempat) **tidak memiliki** arah dari suatu node (nama tempat) ke node lain.
 
+Salah satu istilah dalam graf adalah **tetangga** yang menyatakan daftar node yang terhubung langsung dengan suatu node.
+
 ## Implementasi
 
 ### Menggunakan Adjacency Matrix
