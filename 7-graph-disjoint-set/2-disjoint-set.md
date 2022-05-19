@@ -60,6 +60,12 @@ void merge(std::string A, std::string B) {
     // kedua grup Deni-Edo dan Andi-Budi-Caca semuanya diwakili oleh Andi
     // dengan demikian, Deni (diwakili Andi) sudah berada dalam kelompok yang sama dengan Budi (diwakili Andi juga)
 }
+
+// ...
+
+merge("Andi", "Budi");
+merge("Budi", "Caca");
+merge("Deni", "Edo");
 ```
 
 Untuk mengecek apakah kedua orang berada dalam jaringan pertemanan yang sama, maka cukup melakukan:
