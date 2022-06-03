@@ -1,6 +1,6 @@
-<center>
+<div align="center">
 <h1>Efficient Sorting Algorithm</h1>
-</center>
+</div>
 
 ## Apa itu Efficient Sorting Algorithm?
 
@@ -75,9 +75,9 @@ mergesort(arr[], left, right)
 
 Contoh lengkap dan simulasi grafis _mergesort_ dapat dilihat di [situs ini](https://visualgo.net/en/sorting), dan pilih _mergesort_, atau perhatikan gif di bawah ini.
 
-<center>
+<div align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif"></img>
-</center>
+</div>
 
 ## Perbandingan Quicksort dan Mergesort
 
