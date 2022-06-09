@@ -14,7 +14,7 @@ enum node_t {
     SMA_NEGERI_3_SURAKARTA,
 
     NODE_COUNT,
-    NODE_INVALID = 1
+    NODE_INVALID = -1
 };
 
 std::map<node_t, std::string> node_name;
@@ -75,7 +75,7 @@ int main() {
     }
 
     // atur node asal dan tujuan
-    node_t node_src = RUMAH;
+    node_t node_src = UNIVERSITAS_SEBELAS_MARET;
     node_t node_dst = SMP_NEGERI_4_SURAKARTA;
 
     // atur supaya node asal dikunjungi pertama kali
