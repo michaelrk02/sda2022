@@ -27,7 +27,7 @@ Permasalahan ini biasa dipecahkan menggunakan **algoritma Kruskal** atau **algor
 Algoritma Kruskal bekerja dengan urutan sebagai berikut:
 
 1. Buat graf dalam bentuk edge list dan sortir berdasarkan bobotnya terlebih dahulu
-2. Ambil edge dengan bobot terkecil, kemudian cek apakah edge yang diambil membentuk siklus antar node atau tidak. Apabila **tidak membentuk** siklus, maka masukkan edge tersebut ke dalam MST. Kemudian apabila **membentuk** siklus, maka buang edge tersebut
+2. Ambil edge dengan bobot terkecil, kemudian cek apakah edge yang diambil membentuk siklus antar node atau tidak. Apabila **tidak membentuk** siklus, maka masukkan edge tersebut ke dalam MST. Kemudian apabila **membentuk** siklus, maka buang edge tersebut. Pengecekan siklus dapat dilakukan menggunakan bantuan struktur data **disjoint set**
 3. Ulangi langkah 2 sampai jumlah edge mencapai (V - 1) di mana V merupakan jumlah node/vertex keseluruhan dari graf
 
 Untuk contoh dan visualisasinya dapat dilihat [di sini](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/).
