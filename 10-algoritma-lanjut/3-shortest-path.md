@@ -10,7 +10,7 @@ Shortest path adalah permasalahan graf yang mencoba mencari **rute** yang memili
 
 Berikut adalah contoh hasil generasi shortest path:
 
-![ilustrasi](https://www.researchgate.net/profile/Atta-Ur-Rehman-6/publication/331484960/figure/fig1/AS:732550733512704@1551665113143/Illustration-of-Dijkstras-algorithm.ppm)
+![ilustrasi](./img/shortest-path.ppm)
 
 Contoh tersebut mencoba mencari rute terpendek dari **node 1** ke **node 9** dan rute yang dihasilkan adalah **1-2-3-8-9** yang memiliki bobot terkecil (6) di antara opsi rute yang lainnya (7 dan 10).
 

@@ -16,7 +16,7 @@ Dapat dilihat pada kolom *Graph* bahwa node **D, E, F, G, H** membentuk suatu si
 
 Berikut adalah contoh hasil generasi minimum spanning tree:
 
-![contoh MST](https://www.researchgate.net/profile/Soran-Saeed/publication/330778836/figure/fig2/AS:721420615168005@1549011486980/Example-of-Minimum-spanning-tree-11.jpg)
+![contoh MST](./img/mst.png)
 
 **Contoh Kasus:** berapa panjang jalan terpendek yang dapat diaspal sehingga mencakup seluruh desa yang mulanya terhubung dengan jalan yang belum teraspal (hal tersebut dilakukan supaya pengaspalan dilakukan seminimal mungkin sehingga dapat menghemat biaya pengeluaran).
 
